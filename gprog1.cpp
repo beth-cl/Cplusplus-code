@@ -1,3 +1,6 @@
+// c++ practice code for gameplay programming module
+// practice for: randomisers, classes, pointers, inheretance, while and if statements and constructors
+
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
