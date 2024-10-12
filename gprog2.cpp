@@ -7,11 +7,14 @@ using namespace std;
 
 class Tile
 {
-
+    char tile_prnt;
+    Tile(char tile_prnt) {
+        this->tile_prnt = tile_prnt;
+    }
 };
 
 class Map : public Tile {
-    string Tile_Map[10][10];
+    char tile_prnt = '0';
 };
 
 class weapon {
